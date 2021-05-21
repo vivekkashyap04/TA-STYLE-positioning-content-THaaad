@@ -134,27 +134,49 @@ table {
 body {
   background-color: antiquewhite;
   line-height: 1.5;
+  font-size: 16px;
 }
-.header,
-footer {
+.header {
   background-color: aqua;
+  font-size: 0;
 }
-.brand {
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.brand,
+.nav {
   display: inline-block;
-  padding: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+h1 {
+  width: 180px;
 }
 .nav {
-  margin-left: 70%;
+  width: calc(100% -180px);
+  text-align: right;
+  margin-left: 50%;
+}
+.nav a {
+  font-size: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 20px;
 }
 .article {
-  background-color: cadetblue;
-  border: 1px solid black;
-  margin: 1.5%;
-  width: 46%;
-  height: 300px;
-  padding: 10px;
+  font-size: 0;
+  padding: 60px 0;
+}
+.col {
+  width: 50%;
+  font-size: 20px;
   display: inline-block;
-  text-align: center;
+  vertical-align: top;
+}
+.article-col {
+  padding-right: 32px;
 }
 img {
   width: 100%;
@@ -162,8 +184,14 @@ img {
 h2 {
   font-size: 30px;
   color: crimson;
+  margin-bottom: 16px;
+}
+p {
+  font-size: 20px;
+  line-height: 1.7;
 }
 footer {
   text-align: center;
   padding: 10px;
+  background-color: aqua;
 }
