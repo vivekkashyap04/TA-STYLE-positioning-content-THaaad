@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* custom css */
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: white;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 0 32px;
+}
+.header {
+  background-color: rgb(33 128 173);
+  padding: 30px;
+  height: 200px;
+}
+.sub-header {
+  float: left;
+}
+.nav {
+  float: right;
+}
+.nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-right: 12px;
+  color: white;
+  opacity: 0.6;
+}
+.main-header {
+  text-align: center;
+  font-size: 45px;
+  font-weight: normal;
+  padding-top: 50px;
+}
+.sub-header2 {
+  text-align: center;
+  font-size: 12px;
+  padding: 20px 20 0 50px;
+  opacity: 0.5;
+}
+/* header styling completed here */
+.col {
+  float: left;
+  margin: 2.5%;
+}
+.col-1 {
+  width: 28%;
+}
+.section {
+  background-color: white;
+  margin: 20px 0;
+}
+.col-text {
+  color: rgb(24, 23, 112);
+  font-size: 18px;
+}
+.para-text {
+  color: black;
+  font-size: 12px;
+  padding: 15px 0;
+  margin-bottom: 10px;
+}
+.more {
+  background-color: rgb(33 128 173);
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+}
+/*gallery styling started */
+.section-gallery {
+  background-color: rgb(33 128 173);
+  height: 500px;
+}
+.ipsum {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 30px;
+}
+.col-2 {
+  width: 18%;
+  height: 150px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 50px 0;
+  margin-top: 60px;
+}
+.gallery {
+  border-radius: 50%;
+  width: 60%;
+  height: 100px;
+}
+.gallery-text {
+  font-size: 14px;
+  padding-top: 10px;
+}
+.gallery-subtext {
+  font-size: 10px;
+}
+.col-3 {
+  width: 44%;
+}
+.section-img {
+  width: 100%;
+}
+.col-color {
+  color: rgb(33 128 173);
+}
+.col-color1 {
+  color: black;
+}
+.col-text {
+  color: rgb(33 128 173);
+}
+hr {
+  width: 950px;
+  border: 1px solid grey;
+  margin-top: 20px;
+}
+/* footer */
+footer {
+  padding: 40px;
+  margin: 0 120px;
+}
+.footer-text {
+  float: left;
+  color: grey;
+  font-size: 10px;
+}
+.nav-icon {
+  float: right;
+  color: rgb(33 128 173);
+}
+i {
+  padding-right: 12px;
+  vertical-align: middle;
+}
